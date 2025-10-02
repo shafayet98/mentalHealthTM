@@ -2,18 +2,18 @@
 
 A comprehensive topic modeling analysis of mental health counseling conversations using Latent Dirichlet Allocation (LDA) and various visualization techniques.
 
-## 📋 Project Overview
+## Project Overview
 
 This project analyzes mental health counseling conversations to identify key topics and themes discussed by individuals seeking mental health support. The analysis uses advanced natural language processing techniques to extract meaningful insights from textual data, helping to understand the most common concerns and themes in mental health conversations.
 
-### 🎯 Objectives
+### Objectives
 
 - **Topic Discovery**: Identify the main themes and topics in mental health conversations
 - **Data Visualization**: Create comprehensive visualizations to understand topic distributions
 - **Model Evaluation**: Assess topic model quality using coherence metrics
 - **Interactive Analysis**: Provide interactive visualizations for deeper exploration
 
-## 📊 Dataset
+## Dataset
 
 The project uses the **Mental Health Counseling Conversations** dataset from Hugging Face, which contains:
 
@@ -30,7 +30,7 @@ Context: "I'm going through some things with my feelings and myself. I barely sl
 Response: "If everyone thinks you're worthless, then maybe you need to find new people to hang out with..."
 ```
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Core Technologies
 
@@ -61,7 +61,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 ```
 
-## 📈 Methodology
+## Methodology
 
 ### 1. Data Preprocessing
 
@@ -98,7 +98,7 @@ from nltk.stem import WordNetLemmatizer
 - **Perplexity**: Model perplexity for quality assessment
 - **Visual Validation**: Multiple visualization techniques for topic interpretation
 
-## 📊 Results and Findings
+## Results and Findings
 
 ### Discovered Topics
 
@@ -142,7 +142,7 @@ The analysis identified **10 distinct topics** in mental health conversations:
 - **Substance Abuse**: Topic 8 reveals substance abuse as a recurring theme
 - **Emotional Regulation**: Topics 2 and 4 focus on emotional management and problem-solving
 
-## 📈 Visualizations
+## Visualizations
 
 The project includes comprehensive visualizations:
 
@@ -167,7 +167,7 @@ The project includes comprehensive visualizations:
 - Line plot showing coherence scores across different topic numbers
 - Optimal topic number identification
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -216,7 +216,7 @@ The project includes comprehensive visualizations:
    - Open `lda_visualization.html` in your browser
    - Explore topic relationships and term distributions
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mentalHealthTM/
@@ -229,7 +229,7 @@ mentalHealthTM/
 └── mentalHealthTMenv/                            # Virtual environment
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Model Parameters
 
@@ -260,7 +260,7 @@ custom_stop_words = {
 }
 ```
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 ### Model Quality Indicators
 
@@ -293,7 +293,7 @@ Contributions are welcome! Please consider:
 - **Sentiment Analysis**: Combine with sentiment analysis for deeper insights
 - **Multi-language Support**: Extend to support multiple languages
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -303,7 +303,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Amod**: Dataset creator for the mental health counseling conversations
 - **Open Source Community**: For the excellent NLP and visualization libraries
 
-## 📞 Support
+## Support
 
 For questions, issues, or contributions:
 
@@ -311,7 +311,7 @@ For questions, issues, or contributions:
 - **Discussions**: Use GitHub Discussions for general questions
 - **Documentation**: Check this README and notebook comments for detailed explanations
 
-## 🔬 Research Applications
+## Research Applications
 
 This project has potential applications in:
 
