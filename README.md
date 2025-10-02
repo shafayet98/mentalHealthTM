@@ -275,7 +275,7 @@ custom_stop_words = {
 - **Vocabulary Size**: 88 unique tokens (after filtering)
 - **Average Document Length**: Variable (analyzed in word count distribution)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please consider:
 
